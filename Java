@@ -1,0 +1,19 @@
+public class Hello
+{
+public static void main(String args[])
+{
+System.out.println("hello world");
+}
+}
+
+
+With parameters
+
+public class Helloparameter
+{
+public static void main(String args[])
+{
+System.out.println("Your first-name is " + args[0]);
+System.out.println("Your last-name is " + args[1]);
+}
+}
