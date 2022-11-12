@@ -6,3 +6,24 @@ EXPOSE 80
 COPY index.html /usr/share/nginx/html/index.html
 COPY index.html /var/www/html/index.html
 CMD ["nginx","-g","daemon off;"]
+
+
+Docker 4.6.1(76265)
+
+docker build -t josh .
+
+docker run -it -p 8888:80 josh
+
+open new cmd
+
+docker images
+docker ps -a
+Check in docker desktop for images and containers
+ipconfig
+copy ipv4 address and paste on browser e.g. ip:8888
+docker inspect josh
+docker history josh
+docker pause (container name/container id)
+Check Docker Desktop
+
+docker stop (container name)
